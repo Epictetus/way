@@ -1,0 +1,2 @@
+module Way
+end
