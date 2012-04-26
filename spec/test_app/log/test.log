@@ -1,0 +1,5 @@
+Processing by TestsController#index as HTML
+Completed 500 Internal Server Error in 35ms
+Processing by TestsController#index as HTML
+  Rendered tests/index.html.erb (11.2ms)
+Completed 200 OK in 31ms (Views: 30.8ms)
