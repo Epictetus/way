@@ -17,3 +17,17 @@ Completed 200 OK in 23ms (Views: 22.5ms)
 Processing by TestsController#index as HTML
   Rendered tests/_partial.html.erb (0.1ms)
 Completed 200 OK in 1ms (Views: 0.7ms)
+Processing by TestsController#index as HTML
+  Rendered tests/_partial.html.erb (0.3ms)
+  Rendered tests/index.html.erb (7.2ms)
+Completed 200 OK in 26ms (Views: 25.6ms)
+Processing by TestsController#index as HTML
+  Rendered tests/_partial.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms)
+Processing by TestsController#index as HTML
+  Rendered tests/_partial.html.erb (0.3ms)
+  Rendered tests/index.html.erb (7.2ms)
+Completed 200 OK in 23ms (Views: 22.9ms)
+Processing by TestsController#index as HTML
+  Rendered tests/_partial.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms)
