@@ -1,6 +1,6 @@
 ENV["RAILS_ENV"] ||= 'test'
 
-require File.expand_path("../test_app/config/environment", __FILE__)
+require File.expand_path("../rails3/config/environment", __FILE__)
 require 'rspec/rails'
 require 'awesome_print'
 require 'way'
