@@ -1,11 +1,12 @@
-require 'spec_helper'
+require File.expand_path('../../../spec_helper', __FILE__)
 
 describe TestsController do
-  render_views
+  integrate_views
 
   before { get :index }
 
   it 'adds ths file path to the partial' do
+    pending
     response.body.should include "app/views/tests/_partial.html.erb"
   end
 

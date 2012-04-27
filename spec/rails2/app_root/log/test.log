@@ -1,0 +1,88 @@
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:38:01) [GET]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:38:01) [GET]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:41:38) [GET]
+Completed in 2ms (View: 0 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:41:38) [GET]
+Completed in 0ms (View: 0 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:43:55) [GET]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:43:55) [GET]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:44:50) [GET]
+Rendering tests/index
+Completed in 8ms (View: 7 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:44:50) [GET]
+Rendering tests/index
+Completed in 1ms (View: 0 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:45:24) [GET]
+Rendering tests/index
+Completed in 5ms (View: 3 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:45:24) [GET]
+Rendering tests/index
+Completed in 0ms (View: 0 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:46:26) [GET]
+Rendering tests/index
+Rendered tests/_partial (0.3ms)
+Completed in 5ms (View: 4 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:46:26) [GET]
+Rendering tests/index
+Rendered tests/_partial (0.1ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:46:44) [GET]
+Rendering tests/index
+Rendered tests/_partial (0.2ms)
+Completed in 6ms (View: 4 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:46:44) [GET]
+Rendering tests/index
+Rendered tests/_partial (0.1ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:47:34) [GET]
+Rendering tests/index
+Rendered tests/_partial (0.3ms)
+Completed in 5ms (View: 4 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:47:34) [GET]
+Rendering tests/index
+Rendered tests/_partial (0.1ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:47:40) [GET]
+Rendering tests/index
+Rendered tests/_partial (0.2ms)
+Completed in 5ms (View: 4 | 200 OK [http://test.host/tests]
+
+
+Processing TestsController#index (for 0.0.0.0 at 2012-04-27 16:47:40) [GET]
+Rendering tests/index
+Rendered tests/_partial (0.1ms)
+Completed in 1ms (View: 1 | 200 OK [http://test.host/tests]
