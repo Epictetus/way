@@ -1,8 +1,11 @@
 require 'spec_helper'
 
 describe TestsController do
-  it 'finds the action' do
+  render_views
+
+  it 'adds ths file path to the partial' do
+    pending
     get :index
-    response.should be_success
+    response.body.should =~ /_partial.html.erb/
   end
 end
