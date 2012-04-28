@@ -17,7 +17,12 @@ module ActionView
         end
 
         content = layout.render(view, locals){ content } if layout
-        content << "#{@template.inspect}"
+
+        if @view.controller.params.has_key? '_way'
+          content << "#{@template.inspect}"
+        end
+
+        content
       end
     end
   end
@@ -33,7 +38,12 @@ module ActionView
         else
           partial_template = _pick_partial_template(partial_path)
           partial_content = partial_template.render_partial(self, options[:object], local_assigns)
-          partial_content << "app/views/#{partial_template.to_s}"
+
+          if self.controller.params.has_key? '_way'
+            partial_content << "app/views/#{partial_template.to_s}"
+          end
+
+          partial_content
         end
       when ActionView::Helpers::FormBuilder
         builder_partial_path = partial_path.class.to_s.demodulize.underscore.sub(/_builder$/, '')
