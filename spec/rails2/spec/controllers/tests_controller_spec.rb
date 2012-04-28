@@ -6,11 +6,10 @@ describe TestsController do
   before { get :index }
 
   it 'adds ths file path to the partial' do
-    pending
-    response.body.should include "app/views/tests/_partial.html.erb"
+    response.body.should include "app/views/tests/_partial.erb"
   end
 
   it 'does not show the path for the view' do
-    response.body.should_not include "index.html.erb"
+    response.body.should_not include "index.erb"
   end
 end
