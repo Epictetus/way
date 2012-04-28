@@ -19,16 +19,18 @@ or add the following line to Gemfile:
 gem 'way'
 ```
 
+and run `bundle install` from your shell.
+
 Use
 ---
 
 1. Add '_way' to the querystring
+
 ![add to querystring](https://s3.amazonaws.com/kittypizza/way-toolbar.png)
 
 2. Hit enter and your partials will now display their full path
-![preview](https://s3.amazonaws.com/kittypizza/way-preview.png)
 
-and run `bundle install` from your shell.
+![preview](https://s3.amazonaws.com/kittypizza/way-preview.png)
 
 Supported Rails versions
 ------------------------
