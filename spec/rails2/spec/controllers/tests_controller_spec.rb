@@ -12,4 +12,12 @@ describe TestsController do
   it 'does not show the path for the view' do
     response.body.should_not include "index.erb"
   end
+
+  it 'renders the view correctly' do
+    response.body.should include "I'm a view!"
+  end
+
+  it 'renders the partial correctly' do
+    response.body.should include "I'm a partial"
+  end
 end
