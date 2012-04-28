@@ -5,7 +5,7 @@ Where are You?
 
 Find partials in your Rails app super easy! :D
 
-Just install this gem and all of your partials will, when rendered, have their path appened to them.
+Just install this gem, add '_way' to your querystring and all of your partials, when rendered, will have their path appened to them.
 
 Install
 -------
@@ -26,4 +26,4 @@ Supported Rails versions
 
 Rails 3.x
 
-Support for Rails 2 coming soon!
+Rails 2.3.x
